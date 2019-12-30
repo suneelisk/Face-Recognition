@@ -52,7 +52,7 @@ def browse_button():
 
     main_loop_running = True
     def capture():
-        global main_loop_running, frame
+        global frame
         while (main_loop_running):
             ret, frame = video_capture.read()
             small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
