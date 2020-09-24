@@ -219,10 +219,10 @@ class Example(Frame):
         button2.image=mi_but1
         button2.pack(side='top')
         
-        link1 = Label(self.background, text="SeaportAI Analytics | Robotics", fg="blue", cursor="hand2")
+        link1 = Label(self.background, text="ABCDF", fg="blue", cursor="hand2")
         link1.pack(side="top", padx = 15, pady = 15)
         link1.config(width=25, height = 2)
-        link1.bind("<Button-1>", lambda e: callback("https://seaportai.com/"))
+        link1.bind("<Button-1>", lambda e: callback("###"))
         
         folder_path = StringVar()
         #button1 = Button(text="Output Dictionary", command=output_button, bg="orange", fg="white")
@@ -235,7 +235,7 @@ class Example(Frame):
         link2 = Label(self.background, text="Need Help? Contact Us", fg="blue", cursor="hand2")
         link2.pack(side = "top", padx = 15, pady = 15)
         link2.config(width=25, height = 2)
-        link2.bind("<Button-1>", lambda e: callback("https://seaportai.com/contact"))
+        link2.bind("<Button-1>", lambda e: callback(###"))
  
     def _resize_image(self,event):
  
@@ -252,7 +252,7 @@ class Example(Frame):
 
 
 
-#lbl = Label(root, text="SeaportAI Analytics | Robotics")
+#lbl = Label(root, text="ISK")
 #lbl.grid(column = 4, row = 2, padx=15, pady=15)
 
 folder_path = StringVar()
